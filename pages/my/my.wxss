@@ -1,0 +1,60 @@
+.my{
+    background: #efeff4;
+    padding-top: 84rpx;
+}
+
+.icon{
+    width: 186rpx;
+    height: 186rpx;
+    margin: 0px auto 112rpx; 
+}
+.icon image{
+    width: 186rpx;
+    height: 186rpx;
+    border-radius:50%; 
+}
+
+.myList{
+    padding-left:30rpx; 
+    border-top:1rpx solid #e5e5e5; 
+    background: #fff;
+    font-size: 34rpx;
+}
+
+.order {
+    height: 88rpx;
+    padding-right:30rpx; 
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom:1rpx solid #e5e5e5; 
+}
+
+.order .vL{
+    flex: 1;
+    height: 88rpx;
+    line-height: 88rpx;
+}
+.order .vR{
+    height: 88rpx;
+}
+.order .vR::after{
+    content:" ";
+    display:inline-block;
+    height:6px;
+    width:6px;
+    border-width:2px 2px 0 0;
+    border-color:#C8C8CD;
+    border-style:solid;
+    -webkit-transform:matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform:matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    top:-2px;
+    position:absolute;
+    top:50%;
+    margin-top:-4px;
+    right:2px;
+}

@@ -1,0 +1,39 @@
+
+<!--标题-->
+<view class="title">
+  <view class="titleC">
+    {{feed.title}}
+  </view>
+</view>
+
+<!--iconWrap-->
+<view class="iconWrap">
+  <view class="icon">
+    <image src="{{feed.head_img}}"></image>
+  </view>
+  <view class="name">{{feed.uname}}</view>
+  <view class="timeDesc">{{timeDesc}}</view>
+</view>
+
+<!--内容-->
+<view class="contant">
+  <!--<block wx:for="{{articleDetail}}" wx:for-index="id" wx:for-item="item">-->
+    <view class="contantP">
+      {{feed.content}}
+    </view>
+  <!--</block>-->
+</view>
+
+<!--tips-->
+<view class="tips">提醒：所有内容均为作者个人观点不代表平台意见，d对文中所涉及的股票及投资组合不构成投资建议,投资须谨慎，请独立判断。</view>
+
+<!--author-->
+<view class="authorWrap">
+  <view class="authorIcon">
+    <image src="{{iconUrl}}"></image>
+  </view>
+  <view class="authorNameDesc">
+    <view class="authorName">{{name}}</view>
+    <view class="authorDesc">{{authorDesc}}</view>
+  </view>
+</view>

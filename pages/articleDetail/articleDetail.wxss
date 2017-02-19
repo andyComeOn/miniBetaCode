@@ -1,0 +1,121 @@
+/*标题*/
+
+.title {
+  padding: 40rpx 30rpx 30rpx;
+}
+
+.titleC {
+  line-height: 48rpx;
+  color: #000;
+  font-size: 48rpx;
+}
+
+/*iconWrap*/
+
+.iconWrap {
+  height: 48rpx;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.iconWrap view {
+  float: left;
+}
+
+.icon {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.icon image {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+}
+
+.name {
+  height: 48rpx;
+  line-height: 48rpx;
+  color: #000;
+  font-size: 34rpx;
+  margin-right: 40rpx;
+}
+
+.timeDesc {
+  height: 48rpx;
+  line-height: 48rpx;
+  font-size: 28rpx;
+  color: #878787;
+}
+
+/*内容*/
+
+.contant {
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.contantP {
+  text-indent: 68rpx;
+  line-height: 50rpx;
+  color: #191919;
+  font-size: 34rpx;
+}
+
+/*小提示*/
+
+.tips {
+  padding: 0 30rpx;
+  margin-bottom: 60rpx;
+  line-height: 30rpx;
+  color: #888;
+  font-size: 22rpx;
+}
+
+/*作者*/
+
+.authorWrap {
+  height: 84rpx;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.authorIcon {
+  width: 84rpx;
+  height: 84rpx;
+  margin-right: 30rpx;
+}
+
+.authorIcon image {
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 50%;
+}
+
+.authorNameDesc {
+  flex: 1;
+  height: 84rpx;
+}
+
+.authorName {
+  height: 34rpx;
+  line-height: 34rpx;
+  font-size: 34rxp;
+  color: #222;
+  margin-bottom: 15rpx;
+}
+
+.authorDesc {
+  width: 100%;
+  height: 26rpx;
+  line-height: 26rpx;
+  font-size: 26rpx;
+  color: #878787;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

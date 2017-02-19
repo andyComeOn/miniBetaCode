@@ -1,0 +1,15 @@
+<view class="my">
+  <view class="icon">
+    <image src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="myList">
+    <view class="order">
+      <view class="weui-cell__bd vL">我订阅的</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access vR"></view>
+    </view>
+    <view class="order">
+      <view class="weui-cell__bd vL">意见反馈</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access vR"></view>
+    </view>
+  </view>
+</view>

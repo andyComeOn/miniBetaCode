@@ -1,0 +1,227 @@
+.pageUpBox {
+  background: #efeff4;
+  padding: 40rpx 0;
+}
+
+.pageUp {
+  padding-left: 30rpx;
+  background: #fff;
+}
+
+.weui-cell {
+  padding: 34rpx 30rpx 26rpx 0rpx;
+  font-size: 26rpx;
+}
+
+.weui-cell__bd {
+  height: 26rpx;
+  line-height: 26rpx;
+}
+
+.seeAllCe {
+  color: #586c94;
+}
+
+.rCeTitle {
+  color: #999;
+}
+
+.rCeNav {
+  border-top: 1rpx solid #d9d9d9;
+}
+
+.rListIcon {
+  width: 200rpx;
+  height: 230rpx;
+  margin-right: 20rpx;
+}
+
+.rListIcon image {
+  width: 100%;
+  height: 100%;
+}
+
+.rListDesc {
+  width: 470rpx;
+  height: 230rpx;
+}
+
+.rListDesc .v1 {
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-bottom: 13rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rListDesc .v2 {
+  height: 26rpx;
+  line-height: 26rpx;
+  margin-bottom: 26rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rListDesc .v3 {
+  /*height: 52rpx;*/
+
+
+
+  height: 60rpx;
+
+  line-height: 30rpx;
+ 
+  
+
+
+
+
+  /*-webkit-line-clamp: 2;*/
+  /*line-clamp: 2;*/
+  
+
+  /*white-space: nowrap;*/
+  /*text-overflow: ellipsis;*/
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-bottom: 44rpx;
+  overflow: hidden;
+ 
+}
+
+.rListDesc .v4 {
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-bottom: 6rpx;
+}
+
+/*今日限免*/
+
+.pageDown {
+  padding-left: 30rpx;
+}
+
+.pageDownV1 {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 26rpx;
+  color: #888;
+  position: relative;
+}
+
+.pageDownV1:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+}
+
+.pageDownC {
+  height: 400rpx;
+}
+
+.pageDownList {
+  padding-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.pageDownList .vL {
+  width: 84rpx;
+  height: 84rpx;
+  margin-right: 30rpx;
+}
+
+.pageDownList .vL image {
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 50%;
+}
+
+.pageDownList .vR {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.vRUpDes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 26rpx;
+}
+
+.vRUpDesL {
+  color: #555;
+  flex: 1;
+}
+
+.vRUpDesR {
+  color: #e64340;
+  padding-right: 30rpx;
+}
+
+.vRUpTitle {
+  height: 46rpx;
+  line-height: 46rpx;
+  padding-bottom: 48rpx;
+  position: relative;
+}
+
+.vRUpTitle:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1rpx solid #d0d0d0;
+  color: #d9d9d9;
+}
+
+.vRDown {
+  height: 26rpx;
+  line-height: 26rpx;
+  padding: 16rpx 30rpx 34rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.vRDownL {
+  flex: 1;
+}
+
+.pp{
+  width:100%; 
+  line-height:30rpx;
+  display: block;
+  color: red;
+  background: #fff;
+  font-size: 13px;
+
+}
+
+.ppp{
+  width:100%; 
+  line-height:32rpx;
+  display: block;
+  color: red;
+  /*background: #ccc;*/
+  font-size: 26rpx;
+
+}

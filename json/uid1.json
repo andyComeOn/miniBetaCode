@@ -1,0 +1,31 @@
+{
+	"status": 200,
+	"message": "成功",
+	"debug": null,
+	"attachment": {
+		"token": "phLdsQKM518fVQZahI8hdWsZxzqb-68V",
+		"user": {
+			"uid": 10077,
+			"cid": 92,
+			"uname": "æ¶å£°ä¾æ§",
+			"sign": null,
+			"identity": null,
+			"desc": null,
+			"gender": null,
+			"fanscount": 0,
+			"fallowcount": 0,
+			"alphamoney": null,
+			"foundmoney": 1000000.0,
+			"auth": null,
+			"v_code": null,
+			"vInfo": null,
+			"headImg": null,
+			"backImg": null,
+			"isFallow": null,
+			"status": "N",
+			"type": "0",
+			"create_time": 1484881767000,
+			"update_time": null
+		}
+	}
+}

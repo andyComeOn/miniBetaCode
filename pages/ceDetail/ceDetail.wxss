@@ -1,0 +1,132 @@
+.mFocus {
+  padding: 60rpx 30rpx 30rpx;
+}
+
+.mFocusC {
+  height: 85rpx;
+  margin-bottom: 30rpx;
+}
+
+.vIcon, .vName {
+  float: left;
+}
+
+.vIcon {
+  width: 84rpx;
+  height: 85rpx;
+  margin-right: 30rpx;
+}
+
+.vIcon image {
+  width: 84rpx;
+  height: 85rpx;
+  border-radius: 50%;
+}
+
+.vName {
+  height: 85rpx;
+  line-height: 85rpx;
+  font-size: 34rpx;
+}
+
+.focusOr {
+  width: 120rpx;
+  height: 60rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-size: 28rpx;
+  margin-top: 13rpx;
+  float: right;
+  background: #2b8cfd;
+}
+
+.focusOrNot{
+  background: #f8f8f8;
+  color: #000;
+}
+.sameWord {
+  padding: 0 10rpx 30rpx;
+  line-height: 36rpx;
+  font-size: 28rpx;
+  color: #343434;
+  border-bottom: 1rpx solid #e5e5e5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sameTitle {
+  padding: 30rpx 10rpx;
+  font-size: 34rpx;
+  color: #000;
+}
+.updateCell{
+padding: 0 10rpx;
+height: 48rpx;
+ 
+  font-size: 28rpx;
+  color: #343434;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.updateCell view{
+ height: 48rpx;
+     line-height: 48rpx;
+}
+.updateCellL{
+    width: 360rpx;
+   float: left;
+   overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+  
+}
+
+.updateCellR{
+   float: right;
+    color: #878787;
+}
+
+.chakanAll{
+    height: 28rpx;
+    line-height: 28rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #878787;
+    margin:30rpx 0 50rpx;
+}
+
+.f{
+    padding: 0 30rpx 20rpx;
+      overflow: hidden;
+}
+
+.fC{
+height:94rpx;
+}
+.fC view{
+    width:329rpx;
+    height:94rpx;
+    line-height:94rpx;
+    text-align: center;
+    float: left;
+    border:1rpx solid #e5e5e5; 
+    background: #f8f8f8;
+    font-size: 36rpx;
+    border-radius:9rpx; 
+    box-sizing: border-box;
+}
+.fC .v1{
+    margin-right:15rpx; 
+    border:1rpx solid #e5e5e5;
+    background: #f8f8f8;
+    
+}
+
+.fC .v2{
+    margin-left:15rpx; 
+    background: #2b8cfd;
+    color: #fff;
+  
+}

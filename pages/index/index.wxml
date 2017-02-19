@@ -1,0 +1,50 @@
+
+<!--index.wxml-->
+<view class="page">
+  <view class="pageUpBox">
+    <view class="pageUp">
+      <view class="weui-cells weui-cells_after-title ">
+        <view url="{{articleListUrl}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd rCeTitle">推荐策略</view>
+        </view>
+      </view>
+
+      <!--block渲染-->
+      <block wx:for="{{feed}}" wx:for-index="id" wx:for-item="item" wx:k="{{item.pid}}">
+        <view class="rCeNav">
+          <view class="weui-cell rList" data-pid="{{item.pid}}" bindtap="bindTap">
+            <view class="weui-cell__hd rListIcon">
+              <image src="{{item.image}}" />
+            </view>
+            <view class="weui-cell__bd rListDesc">
+              <view class="v1" style="font-size: 34rpx;color:#000;">{{item.title}}</view>
+              <view class="v2" style="font-size: 26rpx;color:#888;">讲师:{{item.uname}}</view>
+              <view class="v3" style="font-size: 26rpx;color: #353535;">
+              简介: {{item.introduce}}
+                <!--<text>
+               
+                </text>-->
+              
+              
+              
+              </view>
+              <view class="v4" style="font-size: 26rpx;color: #b2b2b2;">{{item.create_time}}</view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <p class="pp">指出为马蓉没有供给甚么本质性的证据，但王宝强偏向法院提交了大批对付情感和孩子抚育方面的证据，在马蓉颁布出示后代身份材料时，有很多网友预测可以或许王宝强的儿子并非本身的亲生骨肉,而是马荣和宋喆的私生子。 </p>
+
+  <view class="ppp" style="background:#ccc;">
+   王宝强和马蓉仳离案初次庭审已经二十多天，有新闻透漏在11月2号，两边又交换了一次证据，指出为马蓉没有供给甚么本质性的证据，但王宝强偏向法院提交了大批对付情感和孩子抚育方面的证据，在马蓉颁布出示后代身份材料时，有很多网友预测可以或许王宝强的儿子并非本身的亲生骨肉,而是马荣和宋喆的私生子。 
+  
+  </view>
+
+
+</view>
+
+
+<!--<p class="pp" style="background:tan;">000</p>-->

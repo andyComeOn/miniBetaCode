@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/ceDetail/ceDetail",
+    "pages/articleList/articleList",
+		"pages/articleDetail/articleDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+  	"color":"#7F8389",
+		"selectedColor":"#2B8CFD",
+		"borderStyle":"black",
+		"backgroundColor":"#F8F8FA",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "取经",
+				"iconPath":"img/ic1.png",
+				"selectedIconPath":"img/ic1d.png"
+			},{
+				"pagePath": "pages/my/my",
+				"text": "我",
+				"iconPath":"img/ic2.png",
+				"selectedIconPath":"img/ic2d.png"
+			}
+		]
+	}
+}

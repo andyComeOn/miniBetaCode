@@ -1,0 +1,22 @@
+{
+	"status": 200,
+	"message": "获取策略详情成功",
+	"debug": null,
+	"attachment": {
+		"ploy": {
+			"pid": 1,
+			"tid": 1,
+			"isDesert": "1",
+			"title": "Mrt.L",
+			"image": "http://source.goldenalpha.com.cn/c5b44764.jpg",
+			"introduce": "hellowWord!!",
+			"crowd": "anyOne",
+			"desertCount": 0,
+			"create_time": 1484292566000,
+			"uid": 10059,
+			"uname": "王世佳要努力赚钱养老婆",
+			"desc": "路是一步步走出来的。被人推着走永远走不出自己的路",
+			"head_img": "http://tva1.sinaimg.cn/crop.0.0.720.720.50/be139ae0jw8eqzedfn43sj20k00k0t9u.jpg"
+		}
+	}
+}

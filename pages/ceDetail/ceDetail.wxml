@@ -1,0 +1,40 @@
+
+<!--ceDetail.wxml-->
+<view class="ban"></view>
+
+<!--作者和关注-->
+<view class="mFocus">
+  <view class="mFocusC">
+    <view class="vIcon">
+      <image src="{{feed.image}}"></image>
+    </view>
+    <view class="vName">场长</view>
+    <view class="focusOr" wx:if="{{feed.isDesert}}">关注</view>
+    <view class="focusOr focusOrNot" wx:else>已关注</view>
+  </view>
+
+  <!--简介-->
+   
+  <view class="mFocusDesc sameWord">{{feed.introduce}}</view>
+  <view class="jieshaoTitle sameTitle">策略介绍</view>
+  <view class="jieshaoContent sameWord">性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。</view>
+  <view class="shiheTitle sameTitle">适合人群</view>
+  <view class="jieshaoContent sameWord">性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。</view>
+  <view class="dingyueTitle sameTitle">订阅须知</view>
+  <view class="jieshaoContent sameWord">性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。性情温和，人好，善良。</view>
+  <view class="updateTitle sameTitle">最近更新</view>
+  <view class="updateCell">
+    <view class="updateCellL">雾霾什么时候已经消除了？</view>
+    <view class="updateCellR">一分钟前更新</view>
+  </view>
+</view>
+
+<!--订阅可看全部详情-->
+<view class="chakanAll">订阅可看全部详情</view>
+<view class="f">
+  <view class="fC">
+    <view class="v1">免费限看</view>
+    <view class="v2" bindtap="bindTap" wx:if="{{feed.isDesert}}">查看订阅</view>
+    <view class="v2" bindtap="bindTap" wx:else> 我要订阅 </view>
+  </view>
+</view>

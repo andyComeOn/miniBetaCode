@@ -1,0 +1,19 @@
+<view class="ban"><image src="{{ban}}"></image></view>
+<view class="ce">
+  <view class="ceView">
+    <block wx:for="{{feed}}" wx:for-index="id" wx:for-item="item">
+      <navigator url="../articleDetail/articleDetail?aid={{item.aid}}" class="ceList">
+        <view class="cellL">
+          <view class="cellLUp">
+            {{item.title}}
+          </view>
+          <view class="cellLDown">
+            <view class="cDown1">3天前更新</view>
+            <view class="cDown2">10人觉得很赞</view>
+          </view>
+        </view>
+        <view class="cellR"></view>
+      </navigator>
+    </block>
+  </view>
+</view>

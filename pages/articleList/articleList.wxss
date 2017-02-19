@@ -1,0 +1,82 @@
+
+.ban{
+  width: 750rpx;
+  height: 380rpx;
+}
+.ban image{
+   width: 750rpx;
+  height: 380rpx;
+}
+.ceView {
+  padding-top: 40rpx;
+  background: #efeff4;
+}
+
+.ceList:nth-child(1) {
+  border-top: 1rpx solid #e5e5e5;
+}
+
+.ceList {
+  height: 118rpx;
+  padding: 0 30rpx;
+  position: relative;
+  background: #fff;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.cellL {
+  width: 650rpx;
+  height: 117rpx;
+  float: left;
+}
+
+.cellR {
+  width: 35rpx;
+  height: 117rpx;
+  float: right;
+  position: relative;
+}
+
+.cellR::after {
+  content: " ";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #c8c8cd;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  top: -2px;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  right: 2px;
+}
+
+.cellLUp {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 16rpx 0;
+  height: 34rpx;
+  line-height: 34rpx;
+  font-size: 34rpx;
+}
+
+.cellLDown {
+  height: 26rpx;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.cellLDown view {
+  float: left;
+  height: 26rpx;
+  line-height: 26rpx;
+}
+
+.cellLDown view:nth-child(1) {
+  margin-right: 43rpx;
+}
